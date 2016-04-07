@@ -41,4 +41,7 @@ Y is a function of past error terms, which themselves are nothing more than whit
 a variable is a function of its previous values.
     Y<sub>t</sub> = A<sub>1</sub>Y<sub>t-1</sub> + A<sub>2</sub>Y<sub>t-2</sub> + ... + A<sub>p</sub>Y<sub>t-p</sub> + e<sub>t</sub>
     Where A's are coefficients, Y is the variable of interest and e<sub>t</sub> is a white noise error term. Here, since we have white noise, we can think there is link between MA and AR
+The idea behind AR process is to feed past data back into the current value of the process. This induces correlation between the past and present. 
 
+**ARMA models**
+Put MA and AR together...
