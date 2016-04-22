@@ -1,0 +1,2 @@
+A time series Yt is said to be an ARIMA(p,d,q) process if ∆dYt is ARMA(p, q).For example, if log returns on an asset are ARMA(p, q), then the log prices are ARIMA(p, 1, q). An ARIMA(p, d, q) is stationary only if d = 0. Otherwise, only its differences of order d or above are stationary.
+Notice that an ARIMA(p, 0, q) model is the same as an ARMA(p, q) model. ARIMA(p, 0, 0), ARMA(p, 0), and AR(p) models are the same. Similarly, ARI- MA(0, 0, q), ARMA(0, q), and MA(q) models are the same. A random walk is an ARIMA(0, 1, 0) model.
